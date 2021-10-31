@@ -9,3 +9,7 @@ body {
 h1 {
   font-family: 'Monoton', cursive;
 }
+
+img {
+  width: 150px;
+}
