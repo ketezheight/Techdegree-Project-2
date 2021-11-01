@@ -85,9 +85,9 @@ footer {
   flex-basis: 250px;
 }
 
-/* .secondary-nav {
+.secondary-nav {
   display: none;
-} */
+}
 
 /* =================================
   ID Styles
@@ -126,9 +126,15 @@ footer {
     flex-grow: 1;
     flex-basis: 300px;
   }
+  .secondary-nav {
+    display: block;
+  }
+  footer p {
+    display: none;
+  }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .main-header {
     display: flex;
     flex-direction: row;
