@@ -4,6 +4,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  width: 80%;
+  margin: auto;
 }
 
 h1 {
@@ -12,4 +14,38 @@ h1 {
 
 img {
   width: 150px;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+
+.main-img {
+  float: right;
+  width: 300px;
+}
+
+.portfolio {
+  clear: both;
+}
+
+@media (min-width: 768px) {
+  .main-header, .main-nav, .portfolio {
+    display: flex;
+  }
+  .main-header{
+    flex-direction: column;
+    align-items: center;
+  }
+  .col {
+    flex: 1;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
