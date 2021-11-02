@@ -127,7 +127,11 @@ footer {
     flex-basis: 300px;
   }
   .secondary-nav {
-    display: inline;
+    display: block;
+  }
+  .secondary-nav li {
+    display: inline-block;
+    margin: 0 5px;
   }
   footer p {
     display: none;
